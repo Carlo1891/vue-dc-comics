@@ -20,6 +20,7 @@
 <script>
 export default {
   name: 'Header',
+
   data: function (){
     return {
       menuList: [
@@ -76,24 +77,29 @@ export default {
       ]
     }
   }
+
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   @import "../assets/styles/variables.scss";
+
   .container-lg > img{
     width: 80px;
   }
+
   .navbar {
     padding-bottom: 0px;
     padding-top: 0px;
   }
+
   .navbar > a {
     color: $textColor;
     font-size: 0.8rem;
     &:hover{
       border-bottom: 5px solid $brandColor;
+      color: $brandColor
     }
   }
+
 </style>
