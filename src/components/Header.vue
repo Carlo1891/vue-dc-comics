@@ -98,7 +98,7 @@ export default {
     font-size: 0.8rem;
     &:hover{
       border-bottom: 5px solid $brandColor;
-      color: $brandColor
+      color: $brandColor;
     }
   }
 
