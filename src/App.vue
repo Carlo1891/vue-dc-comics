@@ -21,7 +21,8 @@ export default {
     Main,
     Footer,
   }
-},
+}
+
 </script>
 
 <style lang="scss">
