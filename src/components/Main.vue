@@ -9,7 +9,7 @@
 
     </div>
 
-    <div class="bg-sec py-4">
+    <div class="bg-secondary py-4">
       <div class="container-lg">
         <div class="row justify-content-around">
 
@@ -70,7 +70,7 @@ export default {
     background-color: $textColor;
   }
 
-  .bg-sec {
+  .bg-secondary {
     background-color: $brandColor;
   }
 </style>
